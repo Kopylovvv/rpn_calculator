@@ -1,1 +1,3 @@
-SAMPLE_CONSTANT: int = 10
+operators = ' + - * ** / // % ~ $ '
+unary_operators = ' ~ $ '
+binary_operators = ' + - * ** / // % '
