@@ -30,4 +30,4 @@
 3. Запустите программу:
 
 ```bash
-python calculator.py
+python src.main.py
