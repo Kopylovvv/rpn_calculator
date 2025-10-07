@@ -1,4 +1,9 @@
 import sys
+import os
+
+# Добавляем родительскую директорию в путь
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import src.constants as constants
 
 # Строки, содержащие все операторы, унарные и бинарные операторы

@@ -26,8 +26,17 @@
 ## Установка и запуск
 
 1. Убедитесь, что у вас установлен Python 3.10 или выше
-2. Скачайте файл `calculator.py`
-3. Запустите программу:
-
+2. Скачайте репозиторий:
 ```bash
-python src.main.py
+git clone https://github.com/Kopylovvv/rpn_calculator.git
+cd rpn_calculator
+```
+3. Создайте и активируйте виртуальное окружение:
+```bash
+uv venv
+source .venv/bin/activate
+```
+4. Запустите программу:
+```bash
+python src/main.py
+```
