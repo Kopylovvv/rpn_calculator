@@ -38,5 +38,5 @@ source .venv/bin/activate
 ```
 4. Запустите программу:
 ```bash
-python src/main.py
+python -m src.main
 ```
